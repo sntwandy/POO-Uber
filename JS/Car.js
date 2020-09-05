@@ -7,7 +7,6 @@ class Car {
   }
 
   printData() {
-    console.log("Driver: " + this.driver.name);
-    console.log("License: " + this.license);
+    console.log(`Driver: ${this.driver.name}, License: ${this.license}`);
   }
 }
